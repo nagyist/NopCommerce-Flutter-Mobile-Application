@@ -1,0 +1,75 @@
+/// This is a free for use and open source, most complete mobile application for nopCommerce platform based on Flutter and NopSuite front-end API for nopCommerce by NopAdvance LLP.
+/// Copyright (C) 2022 - NopAdvance LLP
+
+/// This program is free software: you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License.
+
+/// This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+
+/// This program is forever free software: you can modify and/or redistribute. One cannot sell or relicense the source code it under the terms of the NopAdvance Public license terms.
+
+/// You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+part of responsive_sizer;
+
+extension DeviceExt on num {
+  //  *****************  Absolute length units *****************************************
+  // https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+
+  /// The respective value in centimeters
+  double get cm => this * 37.8;
+
+  /// The respective value millimeters
+  double get mm => this * 3.78;
+
+  /// The respective value in quarter-millimeters
+  double get Q => this * 0.945;
+
+  /// The respective value in inches
+  double get inches => this * 96;
+
+  /// The respective value in picas (1/6th of 1 inch)
+  double get pc => this * 16;
+
+  /// The respective value in points (1/72th of 1 inch)
+  double get pt => this * inches / 72;
+
+  /// The respective value in pixels (default)
+  double get px => this.toDouble();
+
+  //  *****************  Relative length units *****************************************
+  // https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units
+
+  // TODO Recursive units need to be implemented
+  /*double get em => ;
+  double get ex => ;
+  double get ch => ;
+  double get rem => ;
+  double get lh => ;*/
+
+  /// Respective percentage of the viewport's smaller dimension.
+  double get vmin => this * min(Device.height, Device.width) / 100;
+
+  /// Respective percentage of the viewport's larger dimension.
+  double get vmax => this * max(Device.height, Device.width) / 100;
+
+  /// Calculates the height depending on the device's screen size
+  ///
+  /// Eg: 20.h -> will take 20% of the screen's height
+  double get h => this * Device.height / 100;
+
+  /// Calculates the width depending on the device's screen size
+  ///
+  /// Eg: 20.h -> will take 20% of the screen's width
+  double get w => this * Device.width / 100;
+
+  /// Calculates the sp (Scalable Pixel) depending on the device's pixel
+  /// density and aspect ratio
+  double get sp =>
+      this *
+          (((h + w) + (Device.pixelRatio * Device.aspectRatio)) / 2.08) /
+          100;
+
+  /// Calculates the material dp (Pixel Density)
+  /// (https://material.io/design/layout/pixel-density.html#pixel-density-on-android))
+  double get dp => this * (w * 160) / Device.pixelRatio;
+}

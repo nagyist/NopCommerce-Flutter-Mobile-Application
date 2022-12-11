@@ -1,0 +1,157 @@
+#  This is a free for use and open source, most complete mobile application for nopCommerce platform based on Flutter and NopSuite front-end API for nopCommerce by NopAdvance LLP.
+#  Copyright (C) 2022 - NopAdvance LLP
+#
+#  This program is free software: you can redistribute and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License.
+#
+#  This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
+#
+#  This program is forever free software: you can modify and/or redistribute. One cannot sell or relicense the source code it under the terms of the NopAdvance Public license terms.
+#
+#  You should have received a copy of the GNU General Public License along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+name: nopcommerce
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: 1.0.2
+  http: 0.13.3
+  shared_preferences: 2.0.6
+  sqflite: 2.0.2
+  path_provider:
+  permission_handler: 10.2.0
+  url_launcher: 6.0.9
+  intl: 0.17.0
+  flutter_typeahead: 4.0.0
+  file_picker: 4.0.0
+  pdf: 3.8.2
+  open_file: 3.2.1
+  flutter_inappwebview: 5.7.2+2
+  lazy_load_scrollview: 1.3.0
+  share_plus: 3.0.0
+  printing: 5.9.2
+  connectivity: 3.0.4
+  ionicons: 0.1.2
+  simple_html_css: 3.0.1
+  flutter_widget_from_html: 0.8.5
+  cached_network_image: 3.2.1
+  localstorage: 4.0.0+1
+  carousel_slider: 4.0.0
+  provider:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/Flexo/
+    - assets/Common/
+    - assets/Icons/
+    - assets/Images/
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Arimo
+      fonts:
+        - asset: fonts/Arimo-Bold.ttf
+        - asset: fonts/Arimo-BoldItalic.ttf
+        - asset: fonts/Arimo-Italic.ttf
+        - asset: fonts/Arimo-Medium.ttf
+        - asset: fonts/Arimo-MediumItalic.ttf
+        - asset: fonts/Arimo-Regular.ttf
+        - asset: fonts/Arimo-SemiBoldItalic.ttf
+        - asset: fonts/Arimo-SemiBold.ttf
+          style: italic
+
+    - family: OpenSans
+      fonts:
+          - asset: fonts/OpenSans/OpenSans-Bold.ttf
+          - asset: fonts/OpenSans/OpenSans-BoldItalic.ttf
+          - asset: fonts/OpenSans/OpenSans-ExtraBold.ttf
+          - asset: fonts/OpenSans/OpenSans-ExtraBoldItalic.ttf
+          - asset: fonts/OpenSans/OpenSans-Italic.ttf
+          - asset: fonts/OpenSans/OpenSans-Light.ttf
+          - asset: fonts/OpenSans/OpenSans-LightItalic.ttf
+          - asset: fonts/OpenSans/OpenSans-Medium.ttf
+          - asset: fonts/OpenSans/OpenSans-MediumItalic.ttf
+          - asset: fonts/OpenSans/OpenSans-Regular.ttf
+          - asset: fonts/OpenSans/OpenSans-SemiBold.ttf
+          - asset: fonts/OpenSans/OpenSans-SemiBoldItalic.ttf
+            style: italic
+            weight: 500
+
+    - family: MontSerrat
+      fonts:
+          - asset: fonts/montSerrat/Montserrat-Black.ttf
+          - asset: fonts/montSerrat/Montserrat-BlackItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-Bold.ttf
+          - asset: fonts/montSerrat/Montserrat-BoldItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-ExtraBold.ttf
+          - asset: fonts/montSerrat/Montserrat-ExtraBoldItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-ExtraLight.ttf
+          - asset: fonts/montSerrat/Montserrat-ExtraLightItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-Italic.ttf
+          - asset: fonts/montSerrat/Montserrat-Light.ttf
+          - asset: fonts/montSerrat/Montserrat-LightItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-Medium.ttf
+          - asset: fonts/montSerrat/Montserrat-MediumItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-Regular.ttf
+          - asset: fonts/montSerrat/Montserrat-SemiBold.ttf
+          - asset: fonts/montSerrat/Montserrat-SemiBoldItalic.ttf
+          - asset: fonts/montSerrat/Montserrat-Thin.ttf
+          - asset: fonts/montSerrat/Montserrat-ThinItalic.ttf
+            style: italic
+            weight: 500
+
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages

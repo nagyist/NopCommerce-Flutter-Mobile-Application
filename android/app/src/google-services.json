@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "595672658291",
+    "project_id": "push-notification-e413d",
+    "storage_bucket": "push-notification-e413d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595672658291:android:2dbd6684b27eb8709e5506",
+        "android_client_info": {
+          "package_name": "com.example.firebase_push_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595672658291-5ouse110mhnqlu027tr69ip930ae6m95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdA2I8uXQWAtVsPdHYE3s6oIga-AU-Qu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595672658291-5ouse110mhnqlu027tr69ip930ae6m95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:595672658291:android:19b2842f7412c1b19e5506",
+        "android_client_info": {
+          "package_name": "com.nopadvance.team"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "595672658291-5ouse110mhnqlu027tr69ip930ae6m95.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdA2I8uXQWAtVsPdHYE3s6oIga-AU-Qu0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "595672658291-5ouse110mhnqlu027tr69ip930ae6m95.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
