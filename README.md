@@ -1,21 +1,19 @@
-<<<<<<< HEAD
-# nopcommerce
+#nopSuite Mobile Application
 
-A new Flutter project.
+![daily-task-manager](https://docs.nopadvance.com/lib/nopSuite%20Mobile%20Application%20400x400.png)
 
-## Getting Started
+nopSuite nopCommerce Mobile application the most complete & ready-to-use eCommerce mobile application made with love in India for your nopCommerce store. The application is a perfect blend of Architecture, Engineering & Flutter. This application covers all major nopCommerce functionalities to offer a smooth mobile commerce experience to your customers and also available with source code.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+The application uses our 100% free to use NopSuite front-end API for nopCommerce to connect with your nopCommerce website. However, the paid source code, expert support and development customization support is available for both the NopSuite front-end API and NopSuite nopCommerce application.
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
-# NopCommerce-Flutter-Mobile-Application
-Open source mobile application for nopCommerce platform based on Flutter and NopSuite Front-end API for nopCommerce
->>>>>>> 6dacabfa1c40184fa9144e98858995a4699779de
+
+
+Supported nopCommerce version(s): 4.40, 4.50.
+
+
+
+Note: This document supports and refers to the latest released version of the nopSuite nopCommerce Mobile application.
+
+Copyright © 2021 by NopAdvance LLP. All Rights Reserved.
