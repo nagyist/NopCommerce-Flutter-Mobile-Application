@@ -10,10 +10,10 @@ The application uses our 100% free to use NopSuite front-end API for nopCommerce
 
 
 
-Supported nopCommerce version(s): 4.40, 4.50.
+**Supported nopCommerce version(s):** 4.40, 4.50.
 
 
 
-Note: This document supports and refers to the latest released version of the nopSuite nopCommerce Mobile application.
+**Note:** This document supports and refers to the latest released version of the **nopSuite nopCommerce Mobile application.**
 
 Copyright © 2021 by NopAdvance LLP. All Rights Reserved.
