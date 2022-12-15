@@ -1,8 +1,8 @@
-#nopSuite Mobile Application
+# nopSuite Mobile Application
 
 ![daily-task-manager](https://docs.nopadvance.com/lib/nopSuite%20Mobile%20Application%20400x400.png)
 
-nopSuite nopCommerce Mobile application the most complete & ready-to-use eCommerce mobile application made with love in India for your nopCommerce store. The application is a perfect blend of Architecture, Engineering & Flutter. This application covers all major nopCommerce functionalities to offer a smooth mobile commerce experience to your customers and also available with source code.
+**nopSuite nopCommerce Mobile application** the most complete & ready-to-use eCommerce mobile application made with love in India for your nopCommerce store. The application is a perfect blend of Architecture, Engineering & Flutter. This application covers all major nopCommerce functionalities to offer a smooth mobile commerce experience to your customers and also available with source code.
 
 
 
